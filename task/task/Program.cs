@@ -4,7 +4,6 @@ using System.Text;
 using task;
 
 Console.OutputEncoding = Encoding.UTF8;
-
 List<string> phrases = new List<string>();
 int total = 200;
 
