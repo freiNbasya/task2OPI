@@ -2,6 +2,11 @@
 using System.Net.Http;
 using System.Text;
 
+public class UsersResponse
+{
+    public int total;
+    public List<LastSeenUsers> data;
+};
 public class LastSeenUsers
 {
     public string userId;
